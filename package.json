@@ -4,8 +4,8 @@
   "description": "An Express.js app that fetches top stories from Hacker News API",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "nodemon": "nodemon app.js"
+    "start": "node index.js",
+    "nodemon": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
