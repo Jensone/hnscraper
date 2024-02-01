@@ -2,7 +2,7 @@
   "name": "hnscraper",
   "version": "1.0.0",
   "description": "An Express.js app that fetches top stories from Hacker News API",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "nodemon": "nodemon app.js"

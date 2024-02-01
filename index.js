@@ -21,7 +21,7 @@ async function fetchStory(id) {
 }
 
 // Route to get top stories
-app.get('/topstories', async (req, res) => {
+app.get('/', async (req, res) => {
     try {
         const totalSize = req.query.size || 80;
 
@@ -42,11 +42,6 @@ app.get('/topstories', async (req, res) => {
     } catch (error) {
         res.status(500).json({ error: error.message });
     }
-});
-
-// Hellow world route
-app.get('/', (req, res) => {
-    res.send('Nothing to see here');
 });
 
 // Start the server
